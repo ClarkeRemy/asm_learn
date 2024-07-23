@@ -1,0 +1,22 @@
+Unit
+List<T>
+
+
+True = `true()
+False = `false()
+
+Boolean =
+| True
+| False
+
+Boolean =
+| `true()
+| `false()
+
+Resolution = `resolution(`height(Num), `width(Num))
+Resolution<X : Num, Y : Num> = `resolution(`height(X), `width(Num))
+
+screen_res : Resolution =  `resolution(`height(1080) `width(1920))
+screen_res : Resolution =  `resolution(`height(1080) `width(1920))
+
+
